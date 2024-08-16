@@ -17,7 +17,7 @@
         </div>
 
         <!-- Password -->
-        <div class="mt-4">
+        <!-- <div class="mt-4">
             <x-input-label for="password" :value="__('Password')" />
 
             <x-text-input id="password" class="block mt-1 w-full"
@@ -26,7 +26,7 @@
                             required autocomplete="new-password" />
 
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
-        </div>
+        </div> -->
 
         <!-- Confirm Password -->
         <div class="mt-4">
